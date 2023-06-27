@@ -1,0 +1,23 @@
+// Link: https://codeforces.com/gym/102262/problem/J
+
+J. Save JSON
+test time limit1 second
+memory limit per test256 megabytes
+inputstandard input
+conclusionstandard output
+
+You have invalid json written to a string. It is known in advance that one character was lost in it. It is necessary to restore json to a valid one by adding one character. We know about the original JSON message:
+
+json or string or dictionary.
+The dictionary consists of key value pairs separated by a colon, the next pair is separated by a comma.
+The dictionary key is always a string. The uniqueness of the keys is not required. The value can be a string or a dictionary.
+Strings are separated only by double quotes ".
+Strings are not empty and consist only of characters [a-zA-Z0-9] .
+The dictionary may be empty.
+There are no spaces.
+Input data
+String with invalid json length from 1 to105
+.
+
+Output
+A string with valid json that differs from the input by one added character.
