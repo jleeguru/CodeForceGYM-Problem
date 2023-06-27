@@ -1,0 +1,22 @@
+Link: https://codeforces.com/gym/102431/problem/I
+
+
+I. Mr. Panda and Blocks
+time limit per test1 second
+memory limit per test256 megabytes
+inputstandard input
+outputstandard output
+Mr. Panda recently received a bucket of toy blocks as his birthday gift. Each block is a 1×1×2
+ cuboid, which is constructed by a pair of face-to-face 1×1×1
+ colored cubes. There are n
+ types of colors, labeled as 1,2,…,n
+.
+
+Mr. Panda checked all of the blocks, and he found that he had just n×(n+1)2
+ blocks and each of these blocks was painted with a unique pair of colors. That is, for each pair of colors (i,j)
+ (1≤i≤j≤n)
+, he had exactly one block with one cube colored i
+, and the other colored j
+.
+
+Mr. Panda plans to build a fantastic castle with these blocks today.

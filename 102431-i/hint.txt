@@ -1,0 +1,7 @@
+There are N * (N + 1)/2 blocks of shape 1x1x2 where both colors are (i, j) (1 <= i <= j <= n).
+Two single blocks (1x1x1) are said to be connected when they have one common face.
+For every color i (1 <= i <= n), place in space given N * (N + 1) / 2 blocks such that all blocks of color i are connected.
+
+
+This is a constructive question.
+It is easy to see that placing the (i, j) blocks at (i, j, 1) and (i, j, 2) satisfies the condition of the problem.
